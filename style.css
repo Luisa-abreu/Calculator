@@ -11,9 +11,8 @@
 }
 
 body {
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-self: center;
 }
 
 #calculator {
@@ -23,11 +22,13 @@ body {
     height: 65vh;
     width: 25vw;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .calculator__display input{
     width: 95%;
-    height: 100px;
+    height: 130px;
     display: flex;
     text-align: end;
     padding: 0 10px;
@@ -63,9 +64,9 @@ body {
 }
 
 .keys {
-    width: 70%;
+    width: 65%;
 }
 
 .signs {
-    width: 30%;
+    width: 35%;
 }
